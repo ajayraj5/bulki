@@ -1,0 +1,57 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-12-10 17:04:24.909281",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "user",
+  "user_permission_item",
+  "allow"
+ ],
+ "fields": [
+  {
+   "fieldname": "user",
+   "fieldtype": "Table MultiSelect",
+   "label": "User",
+   "options": "User Selector Item",
+   "reqd": 1
+  },
+  {
+   "fieldname": "user_permission_item",
+   "fieldtype": "Table",
+   "options": "Show User Permission Item"
+  },
+  {
+   "fieldname": "allow",
+   "fieldtype": "Table MultiSelect",
+   "hidden": 1,
+   "label": "Allow",
+   "options": "Allowed DocTypes Item"
+  }
+ ],
+ "hide_toolbar": 1,
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-12-11 11:14:33.307384",
+ "modified_by": "Administrator",
+ "module": "BULKi",
+ "name": "Permission Setter",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
