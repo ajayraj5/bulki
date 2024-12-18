@@ -75,6 +75,6 @@ Built with love in India by **AjayRaj Mahiwal**. Special thanks to the Frappe co
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/ajayraj5/bulki/blob/main/LICENSE) file for more details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/ajayraj5/bulki/blob/develop/license.txt) file for more details.
 
 ---
